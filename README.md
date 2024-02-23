@@ -2,13 +2,16 @@
  * @Descripttion: description
  * @Author: jianlinwei
  * @Date: 2023-06-09 09:27:35
- * @LastEditTime: 2024-02-23 13:47:11
+ * @LastEditTime: 2024-02-23 13:45:55
 -->
 <h1 align="center" > Hi, I am Jian👋</h1>
+<div align="center">
 
 ![hello world](https://github.com/JianLinWei1/JianLinWei1/blob/main/giphy.gif)
 
+</div>
 
+<hr/>
 
 <div align="center">
 
