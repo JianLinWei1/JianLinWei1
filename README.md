@@ -4,14 +4,34 @@
  * @Date: 2023-06-09 09:27:35
  * @LastEditTime: 2025-04-24 15:11:38
 -->
-<h1 align="center" > Hi, I am -0V👋</h1>
+<h1 align="center">Hi, I am -0V👋</h1>
+
+<p align="center">
+  A builder who enjoys turning ideas into practical products, developer tools, and smooth web experiences.
+</p>
+
+<p align="center">
+  Focused on Java backend development, full-stack engineering, and interesting side projects around automation, real-time communication, and modern web apps.
+</p>
+
 <table>
   <tr>
     <td width="54%" align="center">
       <img src="./assets/my.gif" width="100%" alt="Animated coding workspace with a mature developer wearing headphones in front of dual monitors" />
     </td>
     <td width="46%" valign="top">
-      <h3>My Tech Stack and Tools:</h3>
+      <h3>About Me</h3>
+      <p>
+        I like building reliable backend services, interactive admin systems, and small tools that make daily work more efficient.
+      </p>
+      <p>
+        Most of my public work revolves around Java, Vue, JavaScript, and practical engineering topics such as streaming services, browser extensions, scripts, and developer workflows.
+      </p>
+      <p>
+        I enjoy learning by shipping, refining details, and keeping projects both useful and enjoyable to work on.
+      </p>
+
+      <h3>My Tech Stack and Tools</h3>
       <p>
         <a href="https://github.com/search?q=user%3AJianLinWei1+is%3Arepo+language%3AJava"><img alt="Java" src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white"></a>
         <a href="https://github.com/search?q=user%3AJianLinWei1+is%3Arepo+language%3AJavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?logo=javascript&logoColor=black"></a>
@@ -33,3 +53,18 @@
     </td>
   </tr>
 </table>
+
+<h3>What I Care About</h3>
+
+- Building useful products instead of demo-only code.
+- Writing maintainable backend and full-stack projects.
+- Exploring automation, tools, and better developer workflows.
+- Shipping ideas fast, then polishing the details.
+
+<h3>Contact</h3>
+
+<p>
+  <a href="mailto:jianlinwei_dream@163.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-jianlinwei__dream%40163.com-1D9BF0?logo=gmail&logoColor=white">
+  </a>
+</p>
