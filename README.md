@@ -6,20 +6,14 @@
 -->
 <h1 align="center" > Hi, I am -0V👋</h1>
 <div align="center">
-
-![jucai](https://github.com/JianLinWei1/JianLinWei1/blob/main/water.gif)
-
+  <img src="./assets/green-room-guitar.svg" width="920" alt="Fresh green animated room with a singing guitarist, computer setup, keyboard and mouse" />
 </div>
 <hr/>
-<table>
-  <tr>
-    <td>
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JianLinWei1&layout=compact" />
-      </a>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=JianLinWei1&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&line_height=20" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=JianLinWei1&layout=compact&langs_count=8&hide_border=true&title_color=2F6F4F&text_color=4A6A57&bg_color=F3FBF5"
+      alt="JianLinWei1 GitHub top languages"
+    />
+  </a>
+</div>

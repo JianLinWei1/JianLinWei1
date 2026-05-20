@@ -1,0 +1,168 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="820" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FFF8"/>
+      <stop offset="1" stop-color="#DDF5E5"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="480" y1="70" x2="480" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FFFB"/>
+      <stop offset="1" stop-color="#E6F7EA"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="480" y1="340" x2="480" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4EFD7"/>
+      <stop offset="1" stop-color="#B6DCB9"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="220" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123B2A"/>
+      <stop offset="1" stop-color="#1D573F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#96C9A2" flood-opacity="0.32"/>
+    </filter>
+    <clipPath id="screenClip">
+      <rect x="0" y="0" width="220" height="130" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect x="24" y="24" width="912" height="492" rx="34" fill="url(#bg)"/>
+  <rect x="58" y="58" width="844" height="280" rx="26" fill="url(#wall)"/>
+  <rect x="58" y="338" width="844" height="144" rx="0 0 26 26" fill="url(#floor)"/>
+
+  <g opacity="0.9">
+    <circle cx="130" cy="86" r="20" fill="#D5F0DB"/>
+    <circle cx="170" cy="76" r="10" fill="#C3E8CB"/>
+    <circle cx="192" cy="98" r="13" fill="#CDEFD4"/>
+    <circle cx="835" cy="92" r="18" fill="#D5F0DB"/>
+    <circle cx="862" cy="78" r="12" fill="#C3E8CB"/>
+    <circle cx="884" cy="104" r="10" fill="#CDEFD4"/>
+  </g>
+
+  <g transform="translate(110 112)" filter="url(#shadow)">
+    <rect x="0" y="0" width="168" height="118" rx="18" fill="#EFFBF2" stroke="#B9DEC2" stroke-width="4"/>
+    <rect x="18" y="18" width="132" height="82" rx="12" fill="#D8F3E0"/>
+    <path d="M46 100C46 70 76 62 84 38C92 62 122 70 122 100" stroke="#9FD0A9" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="84" cy="66" r="14" fill="#95C89D"/>
+  </g>
+
+  <g transform="translate(645 102)" filter="url(#shadow)">
+    <rect x="0" y="0" width="174" height="124" rx="18" fill="#F0FCF3" stroke="#B9DEC2" stroke-width="4"/>
+    <rect x="16" y="16" width="142" height="92" rx="10" fill="#D8F3E0"/>
+    <path d="M22 78C52 58 86 92 118 72C128 66 138 62 150 62" stroke="#9ED3AB" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="56" cy="46" r="14" fill="#A2D7AE"/>
+    <circle cx="94" cy="64" r="10" fill="#8DC999"/>
+  </g>
+
+  <g transform="translate(560 244)" filter="url(#shadow)">
+    <rect x="0" y="0" width="260" height="26" rx="13" fill="#C4E6CA"/>
+    <rect x="28" y="-102" width="204" height="116" rx="16" fill="#1D4D38"/>
+    <rect x="38" y="-92" width="184" height="96" rx="12" fill="url(#screen)"/>
+    <rect x="116" y="14" width="28" height="26" rx="9" fill="#8DBB97"/>
+    <rect x="78" y="38" width="104" height="12" rx="6" fill="#9FD0A9"/>
+
+    <g transform="translate(38 -92)" clip-path="url(#screenClip)">
+      <g opacity="0.95">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -40;0 0" dur="8s" repeatCount="indefinite"/>
+        <rect x="18" y="16" width="74" height="7" rx="3.5" fill="#9BFFB0"/>
+        <rect x="102" y="16" width="38" height="7" rx="3.5" fill="#77D890"/>
+        <rect x="18" y="34" width="128" height="6" rx="3" fill="#B3FFD0" opacity="0.75"/>
+        <rect x="18" y="52" width="92" height="6" rx="3" fill="#7FF0A2" opacity="0.8"/>
+        <rect x="120" y="52" width="42" height="6" rx="3" fill="#B9FFD5" opacity="0.72"/>
+        <rect x="18" y="70" width="146" height="6" rx="3" fill="#A2FFBF" opacity="0.78"/>
+        <rect x="18" y="88" width="84" height="6" rx="3" fill="#D4FFE3" opacity="0.82"/>
+        <rect x="112" y="88" width="50" height="6" rx="3" fill="#7DE39A" opacity="0.86"/>
+        <rect x="18" y="106" width="120" height="6" rx="3" fill="#B9FFD5" opacity="0.76"/>
+        <rect x="18" y="124" width="64" height="6" rx="3" fill="#99F8B3" opacity="0.84"/>
+        <rect x="92" y="124" width="72" height="6" rx="3" fill="#D4FFE3" opacity="0.74"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(560 308)" filter="url(#shadow)">
+    <rect x="0" y="0" width="146" height="28" rx="10" fill="#EAF9EE" stroke="#B7DDBF" stroke-width="3"/>
+    <g transform="translate(14 6)">
+      <rect x="0" y="0" width="16" height="6" rx="2" fill="#A0CDA9"/>
+      <rect x="20" y="0" width="16" height="6" rx="2" fill="#A0CDA9"/>
+      <rect x="40" y="0" width="16" height="6" rx="2" fill="#A0CDA9"/>
+      <rect x="60" y="0" width="16" height="6" rx="2" fill="#A0CDA9"/>
+      <rect x="80" y="0" width="16" height="6" rx="2" fill="#A0CDA9"/>
+      <rect x="100" y="0" width="16" height="6" rx="2" fill="#A0CDA9"/>
+      <rect x="10" y="10" width="16" height="6" rx="2" fill="#B0D8B8"/>
+      <rect x="30" y="10" width="16" height="6" rx="2" fill="#B0D8B8"/>
+      <rect x="50" y="10" width="16" height="6" rx="2" fill="#B0D8B8"/>
+      <rect x="70" y="10" width="16" height="6" rx="2" fill="#B0D8B8"/>
+      <rect x="90" y="10" width="16" height="6" rx="2" fill="#B0D8B8"/>
+    </g>
+  </g>
+
+  <g transform="translate(722 320)" filter="url(#shadow)">
+    <ellipse cx="18" cy="12" rx="18" ry="12" fill="#EFFBF2" stroke="#B7DDBF" stroke-width="3"/>
+    <path d="M18 4V20" stroke="#9FCDA8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(250 252)">
+    <ellipse cx="132" cy="150" rx="116" ry="40" fill="#A8D8B0" opacity="0.28"/>
+  </g>
+
+  <g transform="translate(250 158)" filter="url(#shadow)">
+    <animateTransform attributeName="transform" type="translate" values="250 158;250 152;250 158" dur="4s" repeatCount="indefinite"/>
+
+    <path d="M92 194C102 166 114 144 128 134C142 144 152 166 162 194" fill="#77B685"/>
+    <rect x="106" y="176" width="44" height="52" rx="18" fill="#84BE91"/>
+
+    <path d="M72 112C74 92 88 78 104 78H144C162 78 176 92 178 112L182 158H68L72 112Z" fill="#FFFFFF"/>
+    <path d="M94 94H150C163 94 172 102 174 116L176 134H86L88 116C90 102 100 94 112 94H94Z" fill="#DFF5E6"/>
+
+    <circle cx="126" cy="56" r="34" fill="#FFD8BE"/>
+    <path d="M96 52C98 28 114 16 132 16C150 16 166 30 166 56C154 42 139 36 124 36C114 36 104 42 96 52Z" fill="#3F5D45"/>
+    <circle cx="114" cy="58" r="3.5" fill="#35513B"/>
+    <circle cx="140" cy="58" r="3.5" fill="#35513B"/>
+    <path d="M116 74C124 80 132 80 140 74" stroke="#E3927C" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M84 118C68 130 58 148 54 166" stroke="#FFD8BE" stroke-width="14" stroke-linecap="round"/>
+    <path d="M166 120C184 130 196 144 208 160" stroke="#FFD8BE" stroke-width="14" stroke-linecap="round"/>
+
+    <g transform="translate(150 124)">
+      <animateTransform attributeName="transform" type="rotate" values="-10 18 16;15 18 16;-10 18 16" dur="1.2s" repeatCount="indefinite"/>
+      <path d="M18 0C30 10 38 22 44 38" stroke="#FFD8BE" stroke-width="14" stroke-linecap="round"/>
+    </g>
+
+    <path d="M96 226C90 198 84 180 72 158" stroke="#FFD8BE" stroke-width="14" stroke-linecap="round"/>
+    <path d="M154 226C164 198 174 180 190 160" stroke="#FFD8BE" stroke-width="14" stroke-linecap="round"/>
+
+    <g transform="translate(52 114)">
+      <ellipse cx="82" cy="56" rx="54" ry="42" fill="#8DCB99"/>
+      <ellipse cx="82" cy="56" rx="38" ry="28" fill="#F4FFF6"/>
+      <circle cx="82" cy="56" r="7" fill="#7FBA8C"/>
+      <rect x="126" y="44" width="78" height="14" rx="7" fill="#9B6A3F"/>
+      <rect x="190" y="39" width="12" height="24" rx="5" fill="#855632"/>
+      <line x1="136" y1="48" x2="194" y2="48" stroke="#F5E3C7" stroke-width="2"/>
+      <line x1="136" y1="52" x2="194" y2="52" stroke="#F5E3C7" stroke-width="2"/>
+      <line x1="136" y1="56" x2="194" y2="56" stroke="#F5E3C7" stroke-width="2"/>
+      <line x1="136" y1="60" x2="194" y2="60" stroke="#F5E3C7" stroke-width="2"/>
+      <line x1="136" y1="64" x2="194" y2="64" stroke="#F5E3C7" stroke-width="2"/>
+      <circle cx="104" cy="56" r="5" fill="#6B3E20"/>
+    </g>
+  </g>
+
+  <g fill="#73BD87" opacity="0.9">
+    <path d="M300 178C308 164 324 160 332 146C336 166 348 170 352 182C336 180 316 180 300 178Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0;2 -10;0 0" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M336 146C344 132 360 128 368 114C372 134 384 138 388 150C372 148 352 148 336 146Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0;2 -14;0 0" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="282" cy="196" r="5">
+      <animate attributeName="cy" values="196;168;196" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(164 360)" opacity="0.9">
+    <rect x="0" y="0" width="84" height="84" rx="16" fill="#EBF8EE" stroke="#C1E0C8" stroke-width="4"/>
+    <path d="M28 58V32C28 20 36 12 48 12C60 12 68 20 68 32V58" stroke="#97C9A2" stroke-width="6" stroke-linecap="round"/>
+    <path d="M18 54C24 44 32 38 42 38" stroke="#9FD4AA" stroke-width="5" stroke-linecap="round"/>
+    <path d="M54 18C60 26 66 34 70 44" stroke="#89BF96" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
