@@ -3,7 +3,7 @@
  * @Descripttion: description
  * @Author: jianlinwei
  * @Date: 2023-06-09 09:27:35
- * @LastEditTime: 2026-05-20
+ * @LastEditTime: 2026-05-20 17:54:49
 -->
 
 <h1 align="center">Hi, I am -0V 👋</h1>
@@ -171,13 +171,6 @@
 
 ---
 
-<h3>Contribution Snake | 贪吃蛇贡献图</h3>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/JianLinWei1/JianLinWei1/output/github-contribution-grid-snake.svg" />
-</p>
-
----
 
 <h3>Contact | 联系方式</h3>
 
