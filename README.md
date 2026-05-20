@@ -4,6 +4,7 @@
  * @Date: 2023-06-09 09:27:35
  * @LastEditTime: 2025-04-24 15:11:38
 -->
+
 <h1 align="center">Hi, I am -0V👋</h1>
 
 <p align="center">
@@ -11,7 +12,7 @@
 </p>
 
 <p align="center">
-  Focused on Java backend development, full-stack engineering, and interesting side projects around automation, real-time communication, and modern web apps.
+  Focused on Java backend development, full-stack engineering, automation, and interesting real-world side projects.
 </p>
 
 <table>
@@ -20,17 +21,6 @@
       <img src="./assets/my.gif" width="100%" alt="Animated coding workspace with a mature developer wearing headphones in front of dual monitors" />
     </td>
     <td width="46%" valign="top">
-      <h3>About Me</h3>
-      <p>
-        I like building reliable backend services, interactive admin systems, and small tools that make daily work more efficient.
-      </p>
-      <p>
-        Most of my public work revolves around Java, Vue, JavaScript, and practical engineering topics such as streaming services, browser extensions, scripts, and developer workflows.
-      </p>
-      <p>
-        I enjoy learning by shipping, refining details, and keeping projects both useful and enjoyable to work on.
-      </p>
-
       <h3>My Tech Stack and Tools</h3>
       <p>
         <a href="https://github.com/search?q=user%3AJianLinWei1+is%3Arepo+language%3AJava"><img alt="Java" src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white"></a>
@@ -54,12 +44,33 @@
   </tr>
 </table>
 
+<h3>About Me</h3>
+
+<p>
+  I enjoy building reliable backend services, interactive admin systems, and small tools that make daily work smoother and more efficient.
+</p>
+
+<p>
+  Most of my public work revolves around Java, Vue, JavaScript, and practical engineering topics such as streaming services, browser extensions, scripts, and developer workflows.
+</p>
+
+<p>
+  I like learning by shipping, refining details, and turning rough ideas into projects that are actually useful.
+</p>
+
 <h3>What I Care About</h3>
 
 - Building useful products instead of demo-only code.
 - Writing maintainable backend and full-stack projects.
 - Exploring automation, tools, and better developer workflows.
 - Shipping ideas fast, then polishing the details.
+
+<h3>Currently Exploring</h3>
+
+- Java backend engineering and service design.
+- Vue and modern web application development.
+- Automation scripts and productivity tooling.
+- Real-time communication and streaming-related projects.
 
 <h3>Contact</h3>
 
